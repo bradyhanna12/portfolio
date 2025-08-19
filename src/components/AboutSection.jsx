@@ -13,14 +13,12 @@ export const AboutSection = () => {
                     <h3 className="text-2xl font-semibold"> Software Engineer </h3>
 
                     <p className="text-muted-foreground"> 
-                        With a computer science degree from Oregon State University,
-                        I specialize in software engineering and data science.
+                        I'm current a junior at Oregon State University studying Computer Science,
+                        with a strong foundation in full-stack development, data science, and cybersecurity.
                     </p>
 
                     <p className="text-muted-foreground">
-                        I'm passionate about creating solutions to complex problems.
-                        I am constantly learning new technologies and techniques to stay
-                        at the forefront of the technology sphere.
+                        When I'm not coding, you'll find me playing piano, hiking, and going to the gym.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -43,9 +41,9 @@ export const AboutSection = () => {
                                 <Code className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> Software Engineering </h4>
+                                <h4 className="font-semibold text-lg"> Data Science and AI </h4>
                                 <p className="text-muted-foreground">
-                                    Creating full-stack software with modern technologies
+                                    B.S. in Computer Science with a focus on Data Science and AI.
                                 </p>
                             </div>
                         </div>
@@ -56,9 +54,9 @@ export const AboutSection = () => {
                                 <User className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> UI/UX Design </h4>
+                                <h4 className="font-semibold text-lg"> Cybersecurity </h4>
                                 <p className="text-muted-foreground">
-                                    Designing intuitive user interfaces and seamless user experience.
+                                    Cybersecurity Certificate
                                 </p>
                             </div>
                         </div>
@@ -69,9 +67,10 @@ export const AboutSection = () => {
                                 <Briefcase className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> Project Management </h4>
+                                <h4 className="font-semibold text-lg"> Excelling Student </h4>
                                 <p className="text-muted-foreground">
-                                    Leading projects from conception to completion with agile methodologies.
+                                    With a 3.98 GPA, 6x Dean's List winner, and Drucilla Shepard Smith Award, I am a leading student
+                                    in Computer Science at Oregon State University.
                                 </p>
                             </div>
                         </div>
