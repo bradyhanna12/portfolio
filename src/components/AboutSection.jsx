@@ -13,7 +13,7 @@ export const AboutSection = () => {
                     <h3 className="text-2xl font-semibold"> Software Engineer </h3>
 
                     <p className="text-muted-foreground"> 
-                        I'm current a junior at Oregon State University studying Computer Science,
+                        I'm currently a junior at Oregon State University studying Computer Science,
                         with a strong foundation in full-stack development, data science, and cybersecurity.
                     </p>
 
