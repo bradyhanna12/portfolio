@@ -6,10 +6,24 @@ const skills = [
     {name: "React", category: "Languages"},
     {name: "Tailwind CSS", category: "Languages"},
     {name: "C++", category: "Languages"},
+    {name: "C", category: "Languages"},
+    {name: "SQL/MySQL", category: "Languages"},
     {name: "Python", category: "Languages"},
-    {name: "Node.js", category: "Languages"},
+    {name: "MASM", category: "Languages"},
+    
+
+    {name: "Svelte/Sveltekit", category: "Frameworks/Libraries"},
+    {name: "Node.js", category: "Frameworks/Libraries"},
+    {name: "React", category: "Frameworks/Libraries"},
+    {name: "NumPy", category: "Frameworks/Libraries"},
+    {name: "Pandas", category: "Frameworks/Libraries"},
+    {name: "Matplotlib", category: "Frameworks/Libraries"},
+    {name: "scikit-learn", category: "Frameworks/Libraries"},
+
 
     {name: "Agile", category: "Tools"},
+    {name: "Jira", category: "Tools"},
+    {name: "Unix", category: "Tools"},
     {name: "Git", category: "Tools"},
     {name: "Github", category: "Tools"},
     {name: "Figma", category: "Tools"},
@@ -17,7 +31,7 @@ const skills = [
     {name: "Software Testing", category: "Tools"},
 ]
 
-const categories = ["All", "Languages", "Tools"]
+const categories = ["All", "Languages", "Tools", "Frameworks/Libraries"]
 
 export const SkillsSection = () => {
     const [activeCategory, setActiveCategory] = useState("All")

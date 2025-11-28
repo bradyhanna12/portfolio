@@ -5,28 +5,34 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react"
 const projects = [
     {
         id: 1,
-        title: "Media Catalog",
-        description: "Media tracking application using microservice architecture.",
-        image: "/projects/mediacatalog.png",
-        tags: ["C++, Microservices, Agile"],
+        title: "Hika",
+        description: `- Engineered a cross-platform gamified hiking application using React Native, NativeWind, TypeScript, and Expo for socialization.
+                    - Designed and implemented a Firebase NoSQL database (Cloud Firestore + Auth) for real-time user data synchronization.
+                    - Developed a data pipeline ingesting 10,000+ OpenStreetMap trails with Overpass API to power interactive tracking on Leaflet.`,
+        image: "/projects/hika.png",
+        tags: ["React Native, NativeWind, OpenStreetMap, Overpass API, Leaflet, Cloud Firestore, Firebase Auth, Expo"],
         demoUrl: "#",
         githubUrl: "#"
     },
     {
         id: 2,
-        title: "Class Scheduler",
-        description: "Class scheduling application for students.",
-        image: "/projects/classscheduler.png",
-        tags: ["Javascript, Node.js"],
+        title: "Fantasy Football Prediction model",
+        description: `- Engineered a predictive model using Python libraries NumPy, Pandas, and scikit-learn to forecast weekly and yearly fantasy football player performance, processing 20+ seasons of historical data and over 2,500+ NFL player statistics through an ETL pipeline.
+                    - Cross-validated Random Forest, Linear Regression, and Gradient Boosting algorithms to reduce prediction error by 12–20%.
+                    - Implemented a feature-engineering pipeline that generated 10+ performance metrics increasing predictive stability by 15%.`,
+        image: "/projects/fantasyfootball.png",
+        tags: ["Python, NumPy, Pandas, Matplotlib, scikit-learn"],
         demoUrl: "#",
         githubUrl: "#"
     },
     {
         id: 3,
-        title: "Small Shell",
-        description: "Linux-like shell application written in C",
-        image: "/projects/smallsh.png",
-        tags: ["C"],
+        title: "Chart Creator Application",
+        description: `- Built using SvelteKit/Svelte and QuickChart API to dynamically generate charts and data visualizations for user interactivity.
+                - Ensured full feature reliability and robust application performance by designing a GitHub Actions CI/CD pipeline and 50+ comprehensive tests, including unit tests, integration tests, and end-to-end tests using Vitest and Playwright.
+                - Utilized Agile/Scrum workflow practices and Jira task boards to organize sprint planning and feature implementation.`,
+        image: "/projects/chartcreator.png",
+        tags: ["Svelte/Sveltekit, Quickchart API, Github Actions, Vitest, Playwright, Agile Scrum, Jira"],
         demoUrl: "#",
         githubUrl: "#"
     },
@@ -47,7 +53,7 @@ export const ProjectsSection = () => {
                     <div key={key} className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                         <div className="h-48 overflow-hidden">
                             <img 
-                                src={project.image} 
+                                // src={project.image} 
                                 alt={project.title} 
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                             />

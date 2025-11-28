@@ -14,11 +14,11 @@ export const AboutSection = () => {
 
                     <p className="text-muted-foreground"> 
                         I'm current a junior at Oregon State University studying Computer Science,
-                        with a strong foundation in full-stack development, data science, and cybersecurity.
+                        with a strong foundation in full-stack development, data science, and machine learning.
                     </p>
 
                     <p className="text-muted-foreground">
-                        When I'm not coding, you'll find me playing piano, hiking, and going to the gym.
+                        When I'm not coding, you'll find me playing piano, hiking, playing basketball, and going to the gym.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -54,9 +54,9 @@ export const AboutSection = () => {
                                 <User className="h-6 w-6 text-primary"/>
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg"> Cybersecurity </h4>
+                                <h4 className="font-semibold text-lg"> Learning Assistant and Peer Educator </h4>
                                 <p className="text-muted-foreground">
-                                    Cybersecurity Certificate
+                                    Teaching and tutoring coding concepts to undergraduates.
                                 </p>
                             </div>
                         </div>
