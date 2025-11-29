@@ -9,10 +9,10 @@ export const HeroSection = () => {
 
                 {/* Background images */}
                 <div className="absolute inset-0 z-0 grid grid-cols-2 grid-rows-2 p-8 opacity-66">
-                    <img src="/images/selfie_viet.jpeg" alt="Background 1" className="w-full h-full object-cover" style={{ objectPosition: "40% 50%" }}/>
-                    <img src="/images/me_oahu.jpeg" alt="Background 2" className="w-full h-full object-cover "  style={{ objectPosition: "40% 60%" }} />
-                    <img src="/images/suits.jpeg" alt="Background 3" className="w-full h-full object-cover object-left"  style={{ objectPosition: "40% 50%" }}/>
-                    <img src="/images/htc.jpeg" alt="Background 4" className="w-full h-full object-cover" style={{ objectPosition: "40% 50%" }}/>
+                    <img src="/images/selfie_viet.jpeg" alt="Background 1" className="hidden md:block w-full h-full object-cover" style={{ objectPosition: "40% 50%" }}/>
+                    <img src="/images/me_oahu.jpeg" alt="Background 2" className="hidden md:block w-full h-full object-cover "  style={{ objectPosition: "40% 60%" }} />
+                    <img src="/images/suits.jpeg" alt="Background 3" className="hidden md:block w-full h-full object-cover object-left"  style={{ objectPosition: "40% 50%" }}/>
+                    <img src="/images/htc.jpeg" alt="Background 4" className="hidden md:block w-full h-full object-cover" style={{ objectPosition: "40% 50%" }}/>
                 </div>
 
                 <div className="container max-w-4xl mx-auto text-center z-10">
