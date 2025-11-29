@@ -6,8 +6,8 @@ const projects = [
     {
         id: 1,
         title: "Hika",
-        description: `- Engineered a cross-platform gamified hiking application using React Native, NativeWind, TypeScript, and Expo for socialization.
-                    - Designed and implemented a Firebase NoSQL database (Cloud Firestore + Auth) for real-time user data synchronization.
+        description: `- Engineered a cross-platform gamified hiking application using React Native, NativeWind, TypeScript, and Expo for socialization.\n
+                    - Designed and implemented a Firebase NoSQL database (Cloud Firestore + Auth) for real-time user data synchronization.\n
                     - Developed a data pipeline ingesting 10,000+ OpenStreetMap trails with Overpass API to power interactive tracking on Leaflet.`,
         image: "/projects/hika.png",
         tags: ["React Native, NativeWind, OpenStreetMap, Overpass API, Leaflet, Cloud Firestore, Firebase Auth, Expo"],
@@ -17,8 +17,8 @@ const projects = [
     {
         id: 2,
         title: "Fantasy Football Prediction model",
-        description: `- Engineered a predictive model using Python libraries NumPy, Pandas, and scikit-learn to forecast weekly and yearly fantasy football player performance, processing 20+ seasons of historical data and over 2,500+ NFL player statistics through an ETL pipeline.
-                    - Cross-validated Random Forest, Linear Regression, and Gradient Boosting algorithms to reduce prediction error by 12–20%.
+        description: `- Engineered a predictive model using Python libraries NumPy, Pandas, and scikit-learn to forecast weekly and yearly fantasy football player performance, processing 20+ seasons of historical data and over 2,500+ NFL player statistics through an ETL pipeline.\n
+                    - Cross-validated Random Forest, Linear Regression, and Gradient Boosting algorithms to reduce prediction error by 12-20%.\n
                     - Implemented a feature-engineering pipeline that generated 10+ performance metrics increasing predictive stability by 15%.`,
         image: "/projects/fantasyfootball.png",
         tags: ["Python, NumPy, Pandas, Matplotlib, scikit-learn"],
@@ -28,8 +28,8 @@ const projects = [
     {
         id: 3,
         title: "Chart Creator Application",
-        description: `- Built using SvelteKit/Svelte and QuickChart API to dynamically generate charts and data visualizations for user interactivity.
-                - Ensured full feature reliability and robust application performance by designing a GitHub Actions CI/CD pipeline and 50+ comprehensive tests, including unit tests, integration tests, and end-to-end tests using Vitest and Playwright.
+        description: `- Built using SvelteKit/Svelte and QuickChart API to dynamically generate charts and data visualizations for user interactivity.\n
+                - Ensured full feature reliability and robust application performance by designing a GitHub Actions CI/CD pipeline and 50+ comprehensive tests, including unit tests, integration tests, and end-to-end tests using Vitest and Playwright.\n
                 - Utilized Agile/Scrum workflow practices and Jira task boards to organize sprint planning and feature implementation.`,
         image: "/projects/chartcreator.png",
         tags: ["Svelte/Sveltekit, Quickchart API, Github Actions, Vitest, Playwright, Agile Scrum, Jira"],
