@@ -30,7 +30,7 @@ export const HeroSection = () => {
                         </h1>
 
                         <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4"> 
-                            I create full-stack software using modern technologies. 
+                            I am a software engineer with an interest in AI/ML and Data Science. 
                         </p>
 
                         <div>

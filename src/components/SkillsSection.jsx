@@ -13,8 +13,8 @@ const skills = [
     
 
     {name: "Svelte/Sveltekit", category: "Frameworks/Libraries"},
-    {name: "Node.js", category: "Frameworks/Libraries"},
     {name: "React", category: "Frameworks/Libraries"},
+    {name: "Node.js", category: "Frameworks/Libraries"},
     {name: "NumPy", category: "Frameworks/Libraries"},
     {name: "Pandas", category: "Frameworks/Libraries"},
     {name: "Matplotlib", category: "Frameworks/Libraries"},
@@ -29,6 +29,7 @@ const skills = [
     {name: "Figma", category: "Tools"},
     {name: "Visual Studio Code", category: "Tools"},
     {name: "Software Testing", category: "Tools"},
+    {name: "Data Structures & Algorithms", category: "Tools"}
 ]
 
 const categories = ["All", "Languages", "Tools", "Frameworks/Libraries"]

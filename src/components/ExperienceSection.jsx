@@ -18,9 +18,8 @@ const experience = [
         title: `Computer Science Learning Assistant
                 Oregon State University`,
         location_time: "Corvallis, Oregon | September 2025 - Current",
-        description: `- Engineered a predictive model using Python libraries NumPy, Pandas, and scikit-learn to forecast weekly and yearly fantasy football player performance, processing 20+ seasons of historical data and over 2,500+ NFL player statistics through an ETL pipeline.
-                    - Cross-validated Random Forest, Linear Regression, and Gradient Boosting algorithms to reduce prediction error by 12-20%.
-                    - Implemented a feature-engineering pipeline that generated 10+ performance metrics increasing predictive stability by 15%.`,
+        description: `- Assisted instructor in grading 200+ assignments, labs, and exams for Python courses focused on object-oriented programming.
+                    - Led 50+ office hours and 100+ lab hours, providing support for over 100 students on OOP concepts and debugging techniques.`,
         image: "/experience/oregonstate.png",
         tags: ["Python, NumPy, Pandas, Matplotlib, scikit-learn"],
     },

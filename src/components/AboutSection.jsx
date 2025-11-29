@@ -10,11 +10,16 @@ export const AboutSection = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 <div className="space-y-6">
-                    <h3 className="text-2xl font-semibold"> Software Engineer </h3>
+                    <h3 className="text-2xl font-semibold"> Brady Hanna </h3>
 
                     <p className="text-muted-foreground"> 
-                        I'm current a junior at Oregon State University studying Computer Science,
+                        I'm currently a junior at Oregon State University studying Computer Science,
                         with a strong foundation in full-stack development, data science, and machine learning.
+                        I'm also a member of Phi Delta Theta with an Iron Phi distinction.
+                    </p>
+
+                    <p className="text-muted-foreground"> 
+                        Expected Graduation: June 2027 | GPA: 3.98
                     </p>
 
                     <p className="text-muted-foreground">
@@ -56,7 +61,7 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg"> Learning Assistant and Peer Educator </h4>
                                 <p className="text-muted-foreground">
-                                    Teaching and tutoring coding concepts to undergraduates.
+                                    Teaching and tutoring coding concepts to undergraduate students.
                                 </p>
                             </div>
                         </div>
