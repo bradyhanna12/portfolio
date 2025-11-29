@@ -25,7 +25,7 @@ export const HeroSection = () => {
                         </p>
 
                         <div>
-                            <a href="#projects" className="cosmic-button opacity-0 animate-fade-in-delay-4">
+                            <a href="#experience" className="cosmic-button opacity-0 animate-fade-in-delay-4">
                                 View My Work
                             </a>
                         </div>
